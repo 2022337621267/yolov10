@@ -1,1 +1,3 @@
-# yolov10
+fl.py：执行对数据集内错误数据和PNG数据的去除，同时使用random函数将结果按照8：1：1的比列划分为train valid和test三个数据集
+task.py：利用导出的最好的模型文件，对测试的一百张图片进去标签处理，并将结果存储为xml文件
+zh.py：将导出的最好的模型文件best.onnx转化为IR格式
